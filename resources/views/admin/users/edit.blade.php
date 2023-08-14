@@ -6,6 +6,6 @@
         <x-splade-input name="first_name" :label="__('First Name')" />
         <x-splade-input name="last_name" :label="__('Last Name')" />
         <x-splade-input name="email" label="Email address" />
-        <x-splade-submit />
+        <x-splade-submit label="Update" />
     </x-splade-form>
 </x-admin-layout>

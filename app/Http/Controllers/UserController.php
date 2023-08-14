@@ -36,6 +36,7 @@ class UserController extends Controller
     {
         User::create($request->validated());
         Splade::toast('User created')->autoDismiss(3);
+
         return to_route('admin.users.index');
     }
 
@@ -62,6 +63,7 @@ class UserController extends Controller
     {
         $user->update($request->validated());
         Splade::toast('User updated')->autoDismiss(3);
+
         return to_route('admin.users.index');
     }
 
@@ -72,6 +74,7 @@ class UserController extends Controller
     {
         $user->delete();
         Splade::toast('User deleted')->autoDismiss(3);
+
         return back();
     }
 }

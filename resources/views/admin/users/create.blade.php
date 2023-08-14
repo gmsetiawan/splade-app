@@ -7,6 +7,6 @@
         <x-splade-input name="email" label="Email address" />
         <x-splade-input type="password" name="password" label="Password" />
         <x-splade-input type="password" name="password_confirmation" label="Password Confirmation" />
-        <x-splade-submit />
+        <x-splade-submit label="Save" />
     </x-splade-form>
 </x-admin-layout>
